@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Contract Interface</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Simple Contract Interface</h1>
+        <div class="input-container">
+            <input type="number" id="numberInput" placeholder="Enter a number">
+            <button onclick="storeNumber()">Store Number</button>
+            <button onclick="retrieveNumber()">Retrieve Number</button>
+        </div>
+        <div id="displayArea" class="display-area"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
